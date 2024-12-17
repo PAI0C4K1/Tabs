@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.tabs__content {
+    display: none;
+}
+.tabs__content.active {
+    display: block;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 40px 0;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabs__content.tabs__content.active {
+    padding: 100px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
